@@ -1,0 +1,36 @@
+.mainlist {
+    padding: 10PX;
+    flex-grow: 1;
+
+    .text {
+        margin-left: 7PX;
+        font-size: 18PX;
+        letter-spacing: 4PX;
+    }
+
+    .item {
+        display: flex;
+        flex-grow: 1;
+        padding: 5PX;
+
+        .item-info {
+            position: relative;
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 14PX;
+            margin-left: 10PX;
+            
+            .price {
+                color: red;
+                font-weight: bold;
+            }
+        }
+        .item-img {
+            width: 80PX;
+            height: 80PX;
+            border-radius: 4PX;
+        }
+    }
+}
